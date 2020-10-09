@@ -9,13 +9,13 @@ a model for an API that classifies disaster messages.
 
 <b>Input file</b>
 
-1.data/disaster_categories.csv  <i>Dataset with all the categories</i>
-2.data/disaster_messages.csv	<i>Dataset with all the messages</i>
+1. data/disaster_categories.csv  <i>Dataset with all the categories</i>
+2. data/disaster_messages.csv	<i>Dataset with all the messages</i>
 
 <b>Scripts</b>
-data/process_data.py		<i>ETL script</i>
-models/train_classifier.py	<i>Classification Pipeline</i>
-app/run.py			<i>Flask file to run the app</i>	
+1. data/process_data.py		<i>ETL script</i>
+2. models/train_classifier.py	<i>Classification Pipeline</i>
+3. app/run.py			<i>Flask file to run the app</i>	
 
 
 ### Instructions: (Run run.py directly if DisasterResponse.db and claasifier.pkl already exist.)
